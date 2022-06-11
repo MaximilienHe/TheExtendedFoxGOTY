@@ -17,19 +17,19 @@
         </div>
       </div>
       <div id="unity-mobile-warning">
-        WebGL builds are not supported on mobile devices.
+        Désolé, on supporte pas les appareils mobiles ! Si t'es sur tablette, passe Chrome en "mode PC", et ça marchera quand même ;)
       </div>
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Le vrai GOTY de fou malade</div>
+        <div id="unity-build-title">Appuyez sur la touche "Échap" pour changer de niveau, ou changer la difficulté du jeu ! Bon jeu à toi !</div>
       </div>
     </div>
     <script>
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/1f01944e80fe7a928833c8b91dd945a9.js";
       var config = {
-        dataUrl: buildUrl + "/b02c50d38587ba629868ba81af4f1053.data.unityweb",
+        dataUrl: buildUrl + "/f90503dede2d008ea0f4eae1dbbb01af.data.unityweb",
         frameworkUrl: buildUrl + "/13446d4da59c4398d517f375bfe9c27d.js.unityweb",
         codeUrl: buildUrl + "/6c0a7118725d0e3b21efb42727058791.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
@@ -62,8 +62,8 @@
           mobileWarning.style.display = "none";
         }, 5000);
       } else {
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = "1280px";
+        canvas.style.height = "720px";
       }
       loadingBar.style.display = "block";
 
